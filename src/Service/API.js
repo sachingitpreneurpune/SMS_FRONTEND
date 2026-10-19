@@ -2,6 +2,6 @@ import axios from "axios";
 
 
 let API=axios.create({
-    baseURL:"http://localhost:3000"
+    baseURL:"https://sms-backend-pwiz.onrender.com"
 })
 export default API;
